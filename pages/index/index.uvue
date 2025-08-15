@@ -1,64 +1,37 @@
 <template>
 	<view class="container">
 		<text class="title">WiFi 自动连接</text>
-		<button class="btn" @click="handleConnect">连接 Fortrust WiFi (test)</button>
-		<button class="btn" @click="handleConnect2">连接 Fortrust WiFi 2</button>
+		<button class="btn" @click="handleConnect">连接 WiFi </button>
 	</view>
 </template>
 
 <script lang="uts">
 	import { test, connectWifi } from '@/uni_modules/fpss-wifi-connector'
+	import { ApiOptionsWifi } from '@/uni_modules/fpss-wifi-connector';
 
 	export default {
 		methods: {
 			handleConnect() {
-				console.log('in uvue...');
 				const ssid = "Fortrust"
 				const password = "fortrust666"
-
-				// uni.showLoading({ title: "正在连接..." })
-				test({ Param: 'is a Param' })
-				// connect({
-
-				// 	param: {
-				// 		host: '192.168.150.224',
-				// 		port: 501,
-				// 		readStart: 0,
-				// 		readCount: 0,
-				// 		writeStart: 0,
-				// 		writeValues: []
-				// 	},
-				// 	complete: res => {
-				// 		console.log(res);
-				// 		if (res && res.code === 0) {
-				// 			this.connectStatus = 'connected';
-
-				// 		} else {
-				// 			this.connectStatus = 'disconnected';
-				// 		}
-				// 	}
-
-				// })
-				// connectWifi(
-				// {
-				// 	ssid: 'Fortrust',
-				// 	pwd: 'fortrust666',
-				// 	// complete: (res) => {
-				// 	// 	console.log('成功', res);
-				// 	// 	uni.hideLoading()
-				// 	// }
-				// }
-				// )
-				// uni.hideLoading()
-				// uni.showToast({ title: "已发起连接，请查看系统弹窗", icon: "none" })
-			}
-			,
-			handleConnect2() {
-				console.log('in func 2');
-				connectWifi({
-					ssid: 'fortrust',
-					pwd: 'fortrust666'
+				uni.showLoading({
+					title: '操作中...',
+					mask: true
 				})
+				const option : ApiOptionsWifi = {
+					ssid,
+					pwd: password,
+					complete: (res : string) => {
+						console.log('in uvue', res);
+						uni.showToast({
+							title: res
+						})
+						// setTimeout(() => {
+						// 	uni.hideLoading()
+						// }, 1500)
+					}
+				}
+				connectWifi(option)
 			}
 		}
 	}
