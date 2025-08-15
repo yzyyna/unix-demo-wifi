@@ -4,7 +4,7 @@ DS_Store
 
 # 忽略 UniApp 编译生成的小程序相关目录
 unpackage/
-uni_modules/
+# uni_modules/
 
 
 # 忽略编辑器自动生成的文件
