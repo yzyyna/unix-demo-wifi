@@ -1,0 +1,195 @@
+
+{
+	"bid" : "com.fortrust.fpss.wifi.test",
+	"bver" : "476",
+	"changed" : 
+	[
+		"Frameworks/libswiftCoreImage.dylib",
+		"Frameworks/libswiftObjectiveC.dylib",
+		"Frameworks/libswiftCore.dylib",
+		"Frameworks/libswiftCoreGraphics.dylib",
+		"Frameworks/libswift_Concurrency.dylib",
+		"Frameworks/libswiftUIKit.dylib",
+		"Frameworks/libswiftMetal.dylib",
+		"Frameworks/libswiftDispatch.dylib",
+		"Frameworks/libswiftos.dylib",
+		"Frameworks/libswiftCoreFoundation.dylib",
+		"Frameworks/libswiftDarwin.dylib",
+		"Frameworks/libswiftQuartzCore.dylib",
+		"Frameworks/libswiftCoreAudio.dylib",
+		"Frameworks/libswiftAVFoundation.dylib",
+		"Frameworks/libswiftModelIO.dylib",
+		"Frameworks/libswiftNetwork.dylib",
+		"Frameworks/libswiftFoundation.dylib",
+		"Frameworks/libswiftCoreMedia.dylib",
+		"Frameworks/libswiftCoreLocation.dylib",
+		"Frameworks/libswiftGLKit.dylib",
+		"Frameworks/libswiftsimd.dylib",
+		"Frameworks/GDTMobSDK.framework/_CodeSignature/CodeResources",
+		"Frameworks/GDTMobSDK.framework/GDTMobSDK",
+		"Frameworks/DCloudUniappRuntime.framework/_CodeSignature/CodeResources",
+		"Frameworks/DCloudUniappRuntime.framework/DCloudUniappRuntime",
+		"Frameworks/DCloudUTSExtAPI.framework/_CodeSignature/CodeResources",
+		"Frameworks/DCloudUTSExtAPI.framework/DCloudUTSExtAPI",
+		"Frameworks/DCloudUniCanvas.framework/_CodeSignature/CodeResources",
+		"Frameworks/DCloudUniCanvas.framework/DCloudUniCanvas",
+		"Frameworks/CocoaAsyncSocket.framework/_CodeSignature/CodeResources",
+		"Frameworks/CocoaAsyncSocket.framework/CocoaAsyncSocket",
+		"Frameworks/unimoduleFpssWifiConnector.framework/_CodeSignature/CodeResources",
+		"Frameworks/unimoduleFpssWifiConnector.framework/unimoduleFpssWifiConnector",
+		"Frameworks/KTVHTTPCache.framework/_CodeSignature/CodeResources",
+		"Frameworks/KTVHTTPCache.framework/KTVHTTPCache",
+		"Frameworks/SDWebImage.framework/_CodeSignature/CodeResources",
+		"Frameworks/SDWebImage.framework/SDWebImage",
+		"Frameworks/DCUniAdFoundation.framework/_CodeSignature/CodeResources",
+		"Frameworks/DCUniAdFoundation.framework/DCUniAdFoundation",
+		"Frameworks/KSCrash.framework/_CodeSignature/CodeResources",
+		"Frameworks/KSCrash.framework/KSCrash",
+		"Frameworks/DCloudUTSFoundation.framework/_CodeSignature/CodeResources",
+		"Frameworks/DCloudUTSFoundation.framework/DCloudUTSFoundation",
+		"Frameworks/Tquic.framework/_CodeSignature/CodeResources",
+		"Frameworks/Tquic.framework/Tquic",
+		"embedded.mobileprovision"
+	],
+	"exec" : "UniAppX",
+	"files" : 
+	[
+		"Frameworks/libswiftCoreImage.dylib",
+		"Frameworks/libswiftObjectiveC.dylib",
+		"Frameworks/libswiftCore.dylib",
+		"Frameworks/libswiftCoreGraphics.dylib",
+		"Frameworks/libswift_Concurrency.dylib",
+		"Frameworks/libswiftUIKit.dylib",
+		"Frameworks/libswiftMetal.dylib",
+		"Frameworks/libswiftDispatch.dylib",
+		"Frameworks/libswiftos.dylib",
+		"Frameworks/libswiftCoreFoundation.dylib",
+		"Frameworks/libswiftDarwin.dylib",
+		"Frameworks/libswiftQuartzCore.dylib",
+		"Frameworks/libswiftCoreAudio.dylib",
+		"Frameworks/libswiftAVFoundation.dylib",
+		"Frameworks/libswiftModelIO.dylib",
+		"Frameworks/libswiftNetwork.dylib",
+		"Frameworks/libswiftFoundation.dylib",
+		"Frameworks/libswiftCoreMedia.dylib",
+		"Frameworks/libswiftCoreLocation.dylib",
+		"Frameworks/libswiftGLKit.dylib",
+		"Frameworks/libswiftsimd.dylib"
+	],
+	"folders" : 
+	[
+		
+		{
+			"bid" : "com.qq.gdt.GDTMobSDK",
+			"bver" : "1",
+			"exec" : "GDTMobSDK",
+			"path" : "Frameworks/GDTMobSDK.framework",
+			"sha1" : "A58fu0Msr440oLkxYyW1qf54Gu8=",
+			"sha2" : "Om+oO3m/M9H24Cvsmg2VuCcsrNyEbdKN9mU3kGIR2dU="
+		},
+		
+		{
+			"bid" : "io.dcloud.DCloudUniappRuntime",
+			"bver" : "1",
+			"exec" : "DCloudUniappRuntime",
+			"path" : "Frameworks/DCloudUniappRuntime.framework",
+			"sha1" : "QshhvZJNCfdqbhlUUxJ1xiz/YA0=",
+			"sha2" : "5eeicmaYfi0GZZWhQ1tTylFZ/Dm8JcMizxGwEym+VEc="
+		},
+		
+		{
+			"bid" : "io.dcloud.uts.DCloudUTSExtAPI",
+			"bver" : "1",
+			"exec" : "DCloudUTSExtAPI",
+			"path" : "Frameworks/DCloudUTSExtAPI.framework",
+			"sha1" : "KxtInURyT86xKDRXH65kFfuGa/I=",
+			"sha2" : "6ksBtpK8bxvcyRwGLHqeLnB83gn3KeRIG5QqFtrlQKE="
+		},
+		
+		{
+			"bid" : "io.dcloud.UniCanvas.DCloudUniCanvas",
+			"bver" : "1",
+			"exec" : "DCloudUniCanvas",
+			"path" : "Frameworks/DCloudUniCanvas.framework",
+			"sha1" : "ydyZwrVSMExFEOEKkmkQe+BIimY=",
+			"sha2" : "pL7HoHDsmeqkYdZNBwSYQMwwd+ReQgzzdeEhWlJ2IQg="
+		},
+		
+		{
+			"bid" : "org.cocoapods.CocoaAsyncSocket",
+			"bver" : "1",
+			"exec" : "CocoaAsyncSocket",
+			"path" : "Frameworks/CocoaAsyncSocket.framework",
+			"sha1" : "C8/RKVbW8cTA4w2xLNGtnkEVAGg=",
+			"sha2" : "BUmHEHPmLc0bnAglFVeBOk73GBO9m8Ja/Jya4s6Ohu4="
+		},
+		
+		{
+			"bid" : "uts.sdk.modules.unimoduleFpssWifiConnector",
+			"bver" : "1",
+			"exec" : "unimoduleFpssWifiConnector",
+			"path" : "Frameworks/unimoduleFpssWifiConnector.framework",
+			"sha1" : "gU22dAFziKgkbEreAt+5JdauwHE=",
+			"sha2" : "+2klywL30x/LR6C9lmz9OT5Wa6sW2S+WqzDA4Dn8kQ0="
+		},
+		
+		{
+			"bid" : "com.libobjc.KTVHTTPCache",
+			"bver" : "1",
+			"exec" : "KTVHTTPCache",
+			"path" : "Frameworks/KTVHTTPCache.framework",
+			"sha1" : "mnNp31ZR/qin/1xISyP9W5yNta4=",
+			"sha2" : "W881AyNn6y57ib58/qQ2icY0uWVFnCq2XPcwIyZQK9A="
+		},
+		
+		{
+			"bid" : "com.uni..SDWebImage",
+			"bver" : "1",
+			"exec" : "SDWebImage",
+			"path" : "Frameworks/SDWebImage.framework",
+			"sha1" : "b47NoMT7ldLzAtAo/0AcOqrdves=",
+			"sha2" : "3mvbd5PBXkPCWaYHE2kH9YpqlTWpSQTxDBtIhy4GQn4="
+		},
+		
+		{
+			"bid" : "io.dcloud.HBuilder.DCUniAdFoundation",
+			"bver" : "1",
+			"exec" : "DCUniAdFoundation",
+			"path" : "Frameworks/DCUniAdFoundation.framework",
+			"sha1" : "XfbIXfkj4rJQZ4H+3Orb4Ugo4rY=",
+			"sha2" : "j2WgCVry0voj0SjNFOC+7jRuHpkWg0aVzWR75Q28OSA="
+		},
+		
+		{
+			"bid" : "org.cocoapods.KSCrash",
+			"bver" : "1",
+			"exec" : "KSCrash",
+			"path" : "Frameworks/KSCrash.framework",
+			"sha1" : "qzXUIySdwRwgtkP0+qHg6SJTysY=",
+			"sha2" : "+iQugLlX7W4kXK0wrw/EwVqax79hc6fRV2a3HjbFPvU="
+		},
+		
+		{
+			"bid" : "com.uni.utsFoundation.DCloudUTSFoundation",
+			"bver" : "1",
+			"exec" : "DCloudUTSFoundation",
+			"path" : "Frameworks/DCloudUTSFoundation.framework",
+			"sha1" : "DpfwNQSMxPzhIIqE6iSfozAoHN0=",
+			"sha2" : "lhssmeyaBDM21vIOQ9IbOIgWJ+FGI/0xqTe98KISQZE="
+		},
+		
+		{
+			"bid" : "org.tencent.net.Tquic",
+			"bver" : "95.0.4624.0",
+			"exec" : "Tquic",
+			"path" : "Frameworks/Tquic.framework",
+			"sha1" : "avhauuw3saOMZSSE4yYo+sw1Sw8=",
+			"sha2" : "uBvmwxTYlJkybAe6rA/1ZtRZhjm3zJEcxMVOL5Q27mU="
+		}
+	],
+	"name" : "uni-app x",
+	"path" : "/",
+	"root" : "/var/folders/7k/9lnnkpkx55zfr6yj6ygz92k40000gn/T/HBuilder X/launcher/run_Tmp/iOS/unix-demo-wifi/Payload/UniAppX.app",
+	"sha1" : "zvO82W5ct1rTPqzvOLvm/ykC990=",
+	"sha2" : "UaoJA2brFVXt5XmtVjxtJAEeCO9lW2nOQyut8Qxy6+w="
+}

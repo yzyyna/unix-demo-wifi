@@ -6,7 +6,7 @@
 </template>
 
 <script lang="uts">
-	import { test, connectWifi } from '@/uni_modules/fpss-wifi-connector'
+	import { connectWifi } from '@/uni_modules/fpss-wifi-connector'
 	import { ApiOptionsWifi } from '@/uni_modules/fpss-wifi-connector';
 
 	export default {
@@ -22,7 +22,6 @@
 					ssid,
 					pwd: password,
 					complete: (res : string) => {
-						console.log('in uvue', res);
 						uni.showToast({
 							title: res
 						})

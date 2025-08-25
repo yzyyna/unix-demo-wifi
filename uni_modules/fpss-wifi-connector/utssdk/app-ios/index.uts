@@ -5,22 +5,9 @@ import { ApiOptionsWifi, wifiFunction } from '../interface.uts';
 
 let wifiConnector = new WiFiConnector()
 export const connectWifi : wifiFunction = function (option : ApiOptionsWifi) {
-	console.log('test...ƒ');
 	try {
 		wifiConnector.connect(ssid = option.ssid, passphrase = option.pwd, isWEP = false, joinOnce = false, completion = (res : String) => {
-			console.log('res', res);
-			option.complete?.(res)
-		})
-	} catch (error) {
-		console.log('error ', error);
-		//TODO handle the exception
-	}
-}
-export const test : wifiFunction = function (option : ApiOptionsWifi) {
-	console.log('test...ƒ');
-	try {
-		wifiConnector.connect(ssid = "Fortrust", passphrase = 'fortrust666', isWEP = false, joinOnce = false, completion = (res : String) => {
-			console.log('res', res);
+			console.log('in uts 结果===', res);
 			option.complete?.(res)
 		})
 	} catch (error) {
